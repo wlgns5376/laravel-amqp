@@ -27,6 +27,10 @@
             "email": "wlgns5376@naver.com"
         }
     ],
+    "support": {
+        "issues": "https://github.com/wlgns5376/laravel-amqp/issues",
+        "source": "https://github.com/wlgns5376/laravel-amqp"
+    },
     "extra": {
         "laravel": {
             "providers": [
