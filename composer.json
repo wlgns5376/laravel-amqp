@@ -1,0 +1,37 @@
+{
+    "name": "wlgns5376/laravel-amqp",
+    "description": "laravel amqp package",
+    "require": {
+        "php": "^7.4|^8.0",
+        "php-amqplib/php-amqplib": "^3.0",
+        "illuminate/contracts": "^8.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.0",
+        "phpunit/phpunit": "^9.3"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Wlgns5376\\LaravelAmqp\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Wlgns5376\\LaravelAmqp\\Tests\\": "tests"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ji hoon Kang",
+            "email": "wlgns5376@naver.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Wlgns5376\\LaravelAmqp\\AmqpServiceProvider"
+            ]
+        }
+    }
+}
